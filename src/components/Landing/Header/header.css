@@ -1,0 +1,33 @@
+.header{
+    background-color: blueviolet;
+    color: white;
+    display: flex;  
+    flex-direction: column;
+
+    
+    gap: 2em;
+}
+
+.fondoRojo{
+    background-color: red;
+}
+.fondoSalmon{
+    background-color: salmon;   
+}
+
+.fs-1{
+    font-size: 2rem;
+}
+.w-100{
+    width: 100%;
+}
+
+.d-flex{
+    display: flex;
+ }
+ .centerX{
+    justify-content: center;
+ }
+ .certerY{
+    align-items: center;
+ }  
