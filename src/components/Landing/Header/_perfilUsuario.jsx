@@ -2,7 +2,10 @@ import React from 'react'
 
 const PerfilUsuario = () => {
   return (
-    <div>_perfilUsuario</div>
+    <div className="perfilUsuario centerX certerY">
+        <div className="fotoPerfil fa fa-user-circle"></div>
+        <div className="fa fa-angle-down"></div>
+    </div>
   )
 }
 
