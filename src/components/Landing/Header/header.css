@@ -1,8 +1,10 @@
 .fondoRojo {
     background-color: red;
+    color:white;
 }
 .fondoSalmon {
     background-color: salmon;
+    color: black;
 }
 .fs-1 {
     font-size: 2rem;
@@ -49,16 +51,26 @@
     input{
       height: 2.5em;
       border: none; 
-      padding: 0 .5em;}
+      padding: 0 1em;
+    border-radius:2em;}
 }
 .cuadrado {
     width: 2.5em;
     height: 2.5em;
+    display: grid;  
+    place-items: center;
+    color:white
+}
+button.cuadrado {
+    border: none;
+    border-radius: 50%;
     background-color: white;
-    border-radius: 0.5em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: gray;
+    color: black;
+    cursor: pointer;
+}
+.fotoPerfil {
+    font-size: 2.5em;
 }
 
+
+chazmann
