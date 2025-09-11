@@ -1,11 +1,10 @@
 import React from 'react'
 
-const ItemCategorias = () => {
+const ItemCategorias = ({ nombre, icono }) => {
   return (
-    <div className='item-categoria'>        
-    <i class="fa-solid fa-bowl-food"></i>
-        <span>Pizzas</span>
-
+    <div className='item-categoria'>
+      <i className={`fa-solid ${icono}`}></i>
+      <span>{nombre}</span>
     </div>
   )
 }
