@@ -5,11 +5,15 @@ import './App.css'
 const App = () => {
   return (
     <>
-      <div>App</div>
+      
       <Landing />
+    
+
     </>
 
   )
 }
 
 export default App
+
+
